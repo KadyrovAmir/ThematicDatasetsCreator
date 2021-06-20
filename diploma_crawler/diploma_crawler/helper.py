@@ -1,0 +1,23 @@
+def get_tag_rules():
+    return [
+        'header',
+        'footer',
+        'nav',
+        'noindex',
+        'div[class="bl"]',
+        'div[class="kroshki"]',
+        'div[class*="header"]',
+        'div[id*="header"]',
+        'div[class*="footer"]',
+        'div[id*="footer"]',
+        'div[class*="nav"]',
+        'div[id*="nav"]',
+        'div[class*="menu"]',
+        'div[id*="menu"]',
+        'div[class*="bar"]',
+        'div[id*="bar"]',
+        'div[class*="comment"]',
+        'div[id*="comment"]',
+        'div[class*="repl"]',
+        'div[id*="repl"]',
+    ]
